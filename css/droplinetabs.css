@@ -1,0 +1,114 @@
+#navi{
+	background:url(../common/navi/header_bg.gif) left top repeat-x;
+	border-bottom: 1px solid #fff; /*underline across bottom of main tabs*/
+	min-height:40px;
+}
+#navi .droplinetabs{
+	overflow: hidden;
+	width:960px;
+	margin:auto;
+    font-size: 0;
+    display: table;
+    margin: 0 auto;
+}
+
+#navi .droplinetabs ul{
+	margin: 0 auto;
+	padding: 0;
+	width:960px;
+	list-style: none;
+    display: table-row;
+}
+
+#navi .droplinetabs li{
+    display: table-cell;
+    text-align: center;
+}
+#navi .droplinetabs>ul>li{
+    border-left: 1px solid #999999;
+}
+#navi .droplinetabs>ul>li:last-child {
+    border-right: 1px solid #999999;
+}
+
+#navi .droplinetabs a {
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'karlsenround', sans-serif;
+    line-height: 2;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+#navi .droplinetabs>ul>li:hover{
+    background-color: rgba(254, 50, 39, 0.15); 
+}
+
+
+/* г‚µгѓ–гѓЎгѓ‹гѓҐгѓј */
+#navi .droplinetabs ul li ul{
+	width:100%;
+	position: absolute;
+	z-index: 100;
+	padding:5px 0px 5px 8px;
+	background: url(../common/navi/sub_navi_bg.gif); /*sub menu background color */
+	visibility: hidden;
+}
+#navi .droplinetabs ul li ul li{
+	display:block;
+	padding:4px 3px 0px 4px;
+	float:left;
+}
+
+#navi .droplinetabs ul li ul li {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#navi .droplinetabs ul li ul li a {
+    display: block;
+    box-sizing: border-box;
+    height: 35px;
+    width: 310px;
+    padding-left: 22px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+    background-color: #fff;
+}
+#navi .droplinetabs ul li.oneFourthMenu ul li a {
+    width: 232px;
+}
+#navi .droplinetabs ul li ul li a:hover {
+    background-color: rgb(255, 209, 207);
+}
+
+#navi .droplinetabs .sub_menu01{min-height:92px;}
+#navi .droplinetabs .sub_menu02{min-height:45px;}
+
+
+
+
+
+#navi .droplinetabs ul li ul{
+width:100%;
+min-height:90px;
+position: absolute;
+z-index: 100;
+padding:5px 0px 5px 8px;
+background: url(../common/navi/sub_navi_bg.gif); /*sub menu background color */
+visibility: hidden;
+}
+
+/* Sub level menu links style */
+#navi .droplinetabs ul li ul li{
+	display:block;
+	padding:4px 3px 0px 4px;
+	float:left;
+}
+#navi .droplinetabs ul li ul li a{
+margin: 0;
+}

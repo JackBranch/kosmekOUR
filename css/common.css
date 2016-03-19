@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document englishh */
+
+/* 基本設定  //////////////////////////////////////////////////*/
+
+html{
+	margin:0;
+	padding:0;
+	overflow:scroll;
+	width:100%;
+	height:100%;
+}
+
+body {	
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	text-align:left; 
+	line-height:150%;
+	color:#333;
+}
+
+
+
+
+/* 余白設定 */
+div,
+h1,h2,h3,h4,h5,h6,
+dl,dt,dd,ul,ol,li,
+p,blockquote,pre,cite,code,caption,
+form,fieldset,legend,input,textarea,select,option,label {
+	margin:0px;
+	padding:0px;
+}
+
+
+li img,
+dt img{
+	vertical-align: bottom;
+}
+
+/* 回り込み解除1 */
+.clear{clear:both;}
+
+/* 回り込み解除2 */
+.clearfix:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+}
+.clearfix { display: inline-table; }
+.clearfix{ overflow:hidden;}
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+
+/* 画像リンク時、ボーダーを消す */
+a img {border-style:none;}
+
+/* ボタン余白設定 */
+ol , ul {
+margin:0px;
+padding:0px;
+}
+/* リスト指定 */
+li{list-style: none;}
+img{vertical-align:bottom;}
+
+
+
+
+/* --------------------------------------------------------------------------------------
+ 文字・配列関連
+--------------------------------------------------------------------------------------- */
+/* 文字設定 */
+body {
+	/*font:13px/1.231 'メイリオ','ＭＳ Ｐゴシック',arial,helvetica,clean,sans-serif;    /* 基本文字設定 */
+	
+	
+	font:13px/1.231 "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	*font-size:small;    /* Win IE7およびWin IE6標準準拠モード向け */
+	*font:x-small;    /* Win IE 5-5.5､6(後方互換モード)向け */
+ }
+
+table {
+	font-size:inherit;    /* モダンブラウザ向け */
+	font:100%;    /* Win IE 5-5.5､6(後方互換モード)向け */
+}
+
+/* 通常 */
+.text_normal{
+	font:13px/1.231 "Lucida Sans Unicode", "Lucida Grande", sans-serif;    /* 基本文字設定 */
+	*font-size:small;    /* Win IE7およびWin IE6標準準拠モード向け */
+	*font:x-small;    /* Win IE 5-5.5､6(後方互換モード)向け */
+	font-weight:normal;
+}
+
+/* リンク */
+a:link {text-decoration:none; color: #333;}
+a:visited {text-decoration:none; color:#333;}
+a:hover {text-decoration:underline; color:#C00;}
+
+h1,h2,h3,h4,h5,h6{
+	line-height:100%;
+	font:13px/1.231;
+}
+
+
+/* 10px */
+.text10{font-size:10px;}
+
+/* 12px */
+.text12{font-size:12px;}
+
+/* 14px */
+.text14{font-size:14px;}
+
+/* L */
+.text_L{font-size:large;}
+
+/* M */
+.text_M{font-size:medium;}
+
+/* SS */
+.text_ss{font-size:smaller;}
+
+/* 太文字 */
+.text_weight{font-weight:bold;}
+
+/* テキストセンター揃え */
+.text_center{text-align:center;}
+
+/* テキスト右揃え */
+.text_right{text-align:right;}
+
+/* 右寄せ */
+.float_right{float:right;}
+
+/* 左寄せ */
+.float_left{float:left;}
+
+/* 行間 */
+.lines120{ line-height:120%;}
+.lines150{ line-height:150%;}
+.lines250{ line-height:250%;}
+
+/* トップスペース */
+.top_sp0px{margin-top:0px;}
+.top_sp1px{margin-top:1px;}
+.top_sp5px{margin-top:5px;}
+.top_sp10px{margin-top:10px;}
+.top_sp15px{margin-top:15px;}
+.top_sp20px{margin-top:24px;}
+.top_sp25px{margin-top:25px;}
+.top_sp30px{margin-top:30px;}
+.top_sp35px{margin-top:35px;}
+.top_sp40px{margin-top:40px;}
+.top_sp60px{margin-top:60px;}
+.top_sp100px{margin-top:100px;}
+
+/* 左スペース */
+.left_sp5px{margin-left:5px;}
+.left_sp8px{margin-left:8px;}
+.left_sp10px{margin-left:10px;}
+.left_sp15px{margin-left:15px;}
+.left_sp20px{margin-left:20px;}
+.left_sp30px{margin-left:30px;}
+.left_sp40px{margin-left:40px;}
+.left_sp50px{margin-left:50px;}
+.left_sp60px{margin-left:60px;}
+.left_sp65px{margin-left:65px;}
+.left_sp150px{margin-left:150px;}
+
+/* 右スペース */
+.right_sp5px{margin-right:5px;}
+.right_sp10px{margin-right:10px;}
+.right_sp15px{margin-right:15px;}
+.right_sp20px{margin-right:20px;}
+
+/* 下スペース */
+.bottom_sp10px{margin-bottom:10px;}
+.bottom_sp15px{margin-bottom:15px;}
+.bottom_sp20px{margin-bottom:20px;}
+.bottom_sp25px{margin-bottom:25px;}
+
+/* ワイド */
+.width100{width:100px;}
+.width150{width:150px;}
+.width200{width:200px;}
+.width250{width:250px;}
+.width300{width:300px;}
+.width350{width:350px;}
+.width400{width:400px;}
+.width450{width:450px;}
+.width500{width:500px;}
+.width550{width:550px;}
+.width600{width:600px;}
+.width650{width:650px;}
+.width960{width:960px;}
+
+/* 文字色 */
+.moji_blue{ color:#0059B2;}
+.moji_red{ color:#C00;}
+.moji_black{ color:#333;}
+
+
+/* --------------------------------------------------------------------------------------
+ ヘッダー
+--------------------------------------------------------------------------------------- */
+div#header{
+	width:960px;
+	height:75px;
+	margin:0 auto;
+}
+
+div#header h1{ padding:15px 0px 0px 7px; float:left;}
+
+div#header .right_frame{ width:210px; float:right; font-size:13px; margin:40px 0px 0px 0px;}
+
+div#header .right_frame li{ margin:5px 12px 0px 0px; float:left;}
+
+div#header .right_frame a:hover img{
+	opacity:0.6;
+	filter: alpha(opacity=60);
+	-ms-filter: "alpha( opacity=60 )";
+	background: #fff;
+}
+
+
+/* --------------------------------------------------------------------------------------
+ フッターナビゲーション
+--------------------------------------------------------------------------------------- */
+div#footer_navi{
+	width:100%;
+	background:url(../common/footer/footer_navi_bg.gif);
+	padding:3px 0px;
+}
+
+div#footer_navi ul{
+	width:960px;
+	margin:0 auto;
+	font-size:10px;
+	line-height:100%;
+}
+
+div#footer_navi li{
+	display:block;
+	float:left;
+	padding:3px 10px;
+	margin-top:3px;
+	border-right:1px solid #999;
+}
+
+/* ページの上部へ */
+div#footer_navi .page_top{
+	float:right;
+	background:url(../common/footer/pagetop_cursor.gif) left center no-repeat;
+	padding:3px 0px 3px 12px;
+	border-right:none;
+}
+
+
+/* --------------------------------------------------------------------------------------
+ フッター
+--------------------------------------------------------------------------------------- */
+div#footer{
+	width:100%;
+	height:80px;
+	background:url(../common/footer/footer_bg.jpg) repeat-x left top;
+}
+
+div#footer .box{
+	width:940px;
+	margin:0px auto;
+}
+
+div#footer ul{
+	float:left;
+	font-size:12px;
+	margin-top:10px;
+	width:600px;
+}
+
+div#footer ul li{
+	float:left;
+	background:url(../common/footer/footer_cursor.gif) left center no-repeat;
+	padding-left:12px;
+	margin-right:20px;
+}
+
+/* コピーライト */
+div#footer .copyright{ font-size:10px; float:right; margin-top:10px;}
+
+
+/* --------------------------------------------------------------------------------------
+ 共通
+--------------------------------------------------------------------------------------- */
+
+/* パンくず */
+#topicPath {
+	margin:0px;
+	font-size:10px;
+	width:100%;
+	height:23px;
+	background:url(../common/contents/topic_path_bg.gif) repeat-x top left;
+	border-top:1px solid #ccc;
+	}
+	
+#topicPath ul { display:block; width:960px; margin:4px auto 0px auto; }
+#topicPath li {
+	display: block;
+	list-style-type:none;
+	line-height:10px;
+	float:left;
+}   
+#topicPath li a {
+	display: block;
+	padding-right:12px;
+	margin:-1px 5px 0px 0px;
+	background:url(../common/contents/topicpath.gif) no-repeat right center;   
+}
+
+/* コンテンツフレーム */
+.base_frame{
+	width:960px;
+	margin:0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

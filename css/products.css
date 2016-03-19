@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* --------------------------------------------------------------------------------------
+ 共通
+--------------------------------------------------------------------------------------- */
+
+#pro_navi{
+	width: 100%;
+	height: 185px;
+	background: url(../img/pro_head_bg.gif) left top repeat-x;
+}
+
+#pro_navi .box{
+	width: 972px;
+	margin: 10px auto 0px auto;
+	padding-left: 6px;
+}
+
+#pro_navi .box ul{ margin-bottom:5px;}
+#pro_navi .box li{
+	width:314px;
+	margin-right:6px;
+	float:left;
+}
+
+#pro_navi .box li a:hover img{
+	opacity:0.6;
+	filter: alpha(opacity=60);
+	-ms-filter: "alpha( opacity=60 )";
+}
+
+#pro_navi h2{
+	padding: 10px 0px 0px 5px;
+}
+
+/* --------------------------------------------------------------------------------------
+ 大分類ページ
+--------------------------------------------------------------------------------------- */
+#classification_box{
+	width:960px;
+	margin:15px auto 30px auto;
+	line-height:100%;
+}
+
+#classification_box li{ margin-top:12px;}
+
+/* リストのサイズ */
+#classification_box .normal{
+	width: 220px;
+	min-height: 205px;
+	float: left;
+	display: block;
+}
+
+
+#classification_box .pro_name{
+	background:url(../products/common/classification_cursor.gif) left center no-repeat;
+	padding-left:15px;
+	font-size:14px;
+	margin-top:5px;
+	color:#C00;
+}
+
+#classification_box .description{
+	font-size:12px;
+	padding-left:16px;
+	margin-top:3px;
+}
+/*------------------- 画像のマウスオーバー*/
+#classification_box li a{text-decoration:none; color: #333;}
+#classification_box li a:hover{text-decoration:underline; color:#C00;}
+#classification_box li a:hover img{
+	opacity:0.6;
+	filter: alpha(opacity=60);
+	-ms-filter: "alpha( opacity=60 )";
+}
+/* -----------------------------説明文 */
+.rem_fonts{
+	font-size:16px;
+	line-height:180%;
+}
+
+
+/*------------------- システムの紹介PDFボタン*/
+.system_pdf{ text-align:right}
+.system_pdf a:hover img{
+	opacity:0.6;
+	filter: alpha(opacity=60);
+	-ms-filter: "alpha( opacity=60 )";
+}

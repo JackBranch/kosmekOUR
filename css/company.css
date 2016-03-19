@@ -1,0 +1,843 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#company_frame{
+
+	width:100%;
+
+	background:url(../img/bg.gif) left top repeat-x;
+
+	padding-bottom:50px;
+
+}
+
+
+
+#company_frame h3{ display:block; padding:30px 0px 45px 0px; line-height:0; font-size:12px;}
+
+#company_frame h4{
+
+	border-top:1px solid #999;
+
+	border-left:1px solid #999;
+
+	border-right:1px solid #999;
+
+	border-bottom:3px solid #D01619;
+
+	display:block;
+
+	padding:8px 10px;
+
+	line-height:100%;
+
+	font-size:16px;
+
+	font-weight:bold;
+
+	color:#666;
+
+}
+
+
+#company_frame h5{
+	border-bottom:2px solid #E50011;
+	display:block;
+	padding:8px 10px;
+	line-height:100%;
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+}
+
+#company_frame h6{
+	border-bottom:1px solid #999;
+	display:block;
+	padding:8px 10px;
+	line-height:100%;
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+}
+
+/* --------------------------------------------------------------------------------------
+
+ サイドボタン
+
+--------------------------------------------------------------------------------------- */
+
+#company_frame .side_frame{
+
+	width:194px;
+
+	float:left;
+
+	margin-top:18px;
+
+}
+
+
+
+#company_frame .side_frame h2{
+
+	width:192px;
+
+	height:47px;
+
+}
+
+
+
+#company_frame .side_frame .side_navi{}
+
+#company_frame .side_frame .side_navi li{ width:194px; height:30px; line-height:0;}
+
+#company_frame .side_frame .side_navi .navi a{
+
+	display:block;
+
+	width:194px;
+
+	height:30px;
+
+	background:url(../img/side_navi_off.gif) left top no-repeat;
+
+}
+
+#company_frame .side_frame .side_navi .navi a:hover{ background:url(../img/side_navi_on.gif) left top no-repeat;}
+
+
+
+#company_frame .side_frame .side_navi .active{
+
+	display:block;
+
+	width:194px;
+
+	height:30px;
+
+	background:url(../img/side_navi_on.gif) left top no-repeat;
+
+}
+
+#company_frame .side_frame .side_navi .active a{
+
+	display:block;
+
+	width:194px;
+
+	height:30px;
+
+}
+
+
+#company_frame .side_frame .side_banner{ margin-top:60px;}
+
+#company_frame .side_frame .side_banner li{
+
+	width:194px;
+
+	line-height:0;
+
+	border:1px solid #999;
+
+	margin-top:5px;
+
+}
+
+#company_frame .side_frame .side_banner li a:hover img{
+
+	opacity:0.6;
+
+	filter: alpha(opacity=60);
+
+	-ms-filter: "alpha( opacity=60 )";
+
+	background: #fff;
+
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------
+
+ 会社案内
+
+--------------------------------------------------------------------------------------- */
+
+#company_frame .about_us_frame{
+
+	width:720px;
+
+	float:right;
+
+}
+
+
+
+#company_frame .about_us_frame .about_us{
+
+	width: 720px;
+
+	margin-top: 20px;
+
+	border-bottom: 1px solid #ccc;
+
+}
+
+
+
+#company_frame .about_us_frame .about_us dt {
+
+	border-top: 1px solid #ccc;
+
+	clear: left;
+
+	float: left;
+
+	width: 160px;
+
+	padding:8px 10px;
+
+}
+
+
+
+#company_frame .about_us_frame .about_us dd {
+
+	border-top: 1px solid #ccc;
+
+	margin-left: 180px;
+
+	padding:8px 10px;
+
+}
+
+
+
+#company_frame .about_us_frame .about_us a:hover img{
+
+	opacity:0.6;
+
+	filter: alpha(opacity=60);
+
+	-ms-filter: "alpha( opacity=60 )";
+
+	background: #fff;
+
+}
+
+
+
+/* --------------------------------------------------------------------------------------
+
+ 企業理念
+
+--------------------------------------------------------------------------------------- */
+
+#company_frame .principle_frame{
+
+	width:720px;
+
+	float:right;
+
+}
+
+
+
+#company_frame .principle_frame .principle{
+
+	width: 500px;
+
+	margin: 30px auto 0px auto;
+
+	border-bottom: 1px solid #ccc;
+
+}
+
+
+
+#company_frame .principle_frame .principle p {
+
+	border-top: 1px solid #ccc;
+
+	clear: left;
+
+	width: 100%;
+
+	padding:15px 15px;
+
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------
+
+ 営業拠点
+
+--------------------------------------------------------------------------------------- */
+
+#company_frame .network_frame{
+
+	width:720px;
+
+	float:right;
+
+}
+
+
+
+#company_frame .network_frame .network{
+
+	width: 720px;
+
+	margin-top:20px;
+
+	border-bottom: 1px solid #ccc;
+
+}
+
+
+
+#company_frame .network_frame  a:hover img{
+
+	opacity:0.6;
+
+	filter: alpha(opacity=60);
+
+	-ms-filter: "alpha( opacity=60 )";
+
+	background: #fff;
+
+}
+
+
+
+#company_frame .network_frame .network dt {
+
+	border-top: 1px solid #ccc;
+
+	clear: left;
+
+	float: left;
+
+	width: 160px;
+
+	line-height:140%;
+
+	padding:15px 10px;
+
+}
+
+
+
+#company_frame .network_frame .network dd {
+
+	border-top: 1px solid #ccc;
+
+	margin-left: 180px;
+
+	line-height:140%;
+
+	padding:15px 10px;
+
+}
+
+
+
+#company_frame .network_frame .network2{
+
+	width: 720px;
+
+	margin-top:20px;
+
+	border-bottom: 1px solid #ccc;
+
+}
+
+
+
+#company_frame .network_frame .network2 dt {
+
+	border-top: 1px solid #ccc;
+
+	clear: left;
+
+	float: left;
+
+	width: 210px;
+
+	line-height:140%;
+
+	padding:15px 10px;
+
+}
+
+
+
+#company_frame .network_frame .network2 dd {
+
+	border-top: 1px solid #ccc;
+
+	margin-left: 230px;
+
+	padding:15px 10px;
+
+	line-height:140%;
+
+}
+
+#company_frame .network_frame .network2 a{ text-decoration:underline;}
+
+
+/*アメリカ*/
+#company_frame .network_frame .network3{
+	width: 720px;
+	margin-top:20px;
+	border-bottom: 1px solid #ccc;
+}
+
+#company_frame .network_frame .network3 dt {
+	border-top: 1px solid #ccc;
+	clear: left;
+	float: left;
+	width: 210px;
+	line-height:140%;
+	padding:15px 10px;
+}
+
+#company_frame .network_frame .network3 dd {
+	border-top: 1px solid #ccc;
+	margin-left: 230px;
+	padding:15px 10px;
+	line-height:140%;
+}
+#company_frame .network_frame .network3 a{ text-decoration:underline;}
+
+/*ヨーロッパ*/
+#company_frame .network_frame .network4{
+	width: 720px;
+	margin-top:20px;
+	border-bottom: 1px solid #ccc;
+}
+
+#company_frame .network_frame .network4 dt {
+	border-top: 1px solid #ccc;
+	clear: left;
+	float: left;
+	width: 210px;
+	line-height:140%;
+	padding:15px 10px;
+}
+
+#company_frame .network_frame .network4 dd {
+	border-top: 1px solid #ccc;
+	margin-left: 230px;
+	padding:15px 10px;
+	line-height:140%;
+}
+#company_frame .network_frame .network4 a{ text-decoration:underline;}
+
+/*アジア*/
+#company_frame .network_frame .network5{
+	width: 720px;
+	margin-top:20px;
+	border-bottom: 1px solid #ccc;
+}
+
+#company_frame .network_frame .network5 dt {
+	border-top: 1px solid #ccc;
+	clear: left;
+	float: left;
+	width: 210px;
+	line-height:140%;
+	padding:15px 10px;
+}
+
+#company_frame .network_frame .network5 dd {
+	border-top: 1px solid #ccc;
+	margin-left: 230px;
+	padding:15px 10px;
+	line-height:140%;
+}
+#company_frame .network_frame .network5 a{ text-decoration:underline;}
+
+.fsize_s {
+	font-size: 11px;
+	padding-left: 10px;
+	line-height: 15px;
+}
+
+
+
+/* 地図 */
+
+#company_frame .network_frame .map_frame{
+
+	width:680px;
+
+	margin:25px auto 0px auto;
+
+}
+
+/*マップボタン　インフォボタン*/
+.btn_map {
+	display: block;
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.btn_info {
+	display: block;
+	float: left;
+	
+}
+
+/*サポート・対応言語*/
+
+dd .support_frame {
+	width: 325px;
+	float: left;
+	padding-top: 20px;
+}
+
+.icon {
+	float: left;	
+}
+ul .support_01.icon {
+	background-image: url(../company/network/img/support_1.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 87px;
+	height: 80px;
+	text-indent: -9999px;
+	/* [disabled]padding-right: 5px; */
+}
+
+ul .support_02.icon {
+	background-image: url(../company/network/img/support_2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 68px;
+	height: 80px;
+	text-indent: -9999px;
+	padding-right: 8px;
+}
+
+ul .support_03.icon {
+	background-image: url(../company/network/img/support_3.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 73px;
+	height: 80px;
+	text-indent: -9999px;
+	padding-right: 8px;
+}
+
+ul .support_04.icon {
+	background-image: url(../company/network/img/support_4.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 70px;
+	height: 80px;
+	text-indent: -9999px;
+	padding-right: 10px;
+}
+
+dd .lang_frame {
+	float: left;
+	width: 145px;
+	padding-top: 20px;
+}
+
+dd .lang_frame .lang_01 {
+	background-image: url(../company/network/img/lang_ja.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height:35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_02 {
+	background-image: url(../company/network/img/lang_en.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_03 {
+	background-image: url(../company/network/img/lang_sp.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_04 {
+	background-image: url(../company/network/img/lang_po.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_05 {
+	background-image: url(../company/network/img/lang_de.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_06 {
+	background-image: url(../company/network/img/lang_it.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_07 {
+	background-image: url(../company/network/img/lang_ko.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_08 {
+	background-image: url(../company/network/img/lang_ch1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_09 {
+	background-image: url(../company/network/img/lang_ch2.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_10 {
+	background-image: url(../company/network/img/lang_tai.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_11 {
+	background-image: url(../company/network/img/lang_fi.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_12 {
+	background-image: url(../company/network/img/lang_ind.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 	145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_13 {
+	background-image: url(../company/network/img/lang_hin.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 145px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+
+dd .lang_frame .lang_14 {
+	background-image: url(../company/network/img/lang_cz.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 135px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+dd .lang_frame .lang_15 {
+	background-image: url(../company/network/img/lang_tr.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 135px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+
+dd .lang_frame .lang_16 {
+	background-image: url(../company/network/img/lang_fr.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 135px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+
+dd .lang_frame .lang_17 {
+	background-image: url(../company/network/img/lang_pol.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 135px;
+	height: 35px;
+	padding-bottom: 10px;
+}
+
+/* --------------------------------------------------------------------------------------
+
+ 沿革
+
+--------------------------------------------------------------------------------------- */
+
+#company_frame .history_frame{
+
+	width:720px;
+
+	float:right;
+
+}
+
+
+
+#company_frame .history_frame .history{
+
+	width: 720px;
+
+	margin:20px auto 0px auto;
+
+	border-bottom: 1px solid #ccc;
+
+	line-height:140%;
+
+}
+
+#company_frame .history_frame .history dt,dd { padding:8px 10px;}
+
+
+
+#company_frame .history_frame .history .year {
+
+	border-top: 1px solid #ccc;
+
+	clear: left;
+
+	float: left;
+
+	width: 130px;
+
+	text-align:right;
+
+	padding-right:30px;
+
+}
+
+#company_frame .history_frame .history .year p{ float:left; width:40px;}
+
+
+
+
+
+#company_frame .history_frame .history .item {
+
+	border-top: 1px solid #ccc;
+
+	margin-left:160px;
+
+}
+
+
+
+/* --------------------------------------------------------------------------------------
+
+ 採用情報
+
+--------------------------------------------------------------------------------------- */
+
+#company_frame .recruit_frame{
+
+	width:720px;
+
+	float:right;
+
+}
+
+#company_frame .recruit_frame a:hover img{
+
+	opacity:0.6;
+
+	filter: alpha(opacity=60);
+
+	-ms-filter: "alpha( opacity=60 )";
+
+	background: #fff;
+
+}
+
+
+
+#company_frame .recruit_frame .recruitment{
+
+	width: 605px;
+
+	margin: 0px auto;
+
+}
+
+#company_frame .recruit_frame .recruitment li{ float:left; width:270px;}
+
+#company_frame .recruit_frame .recruitment li a:hover img{
+
+	opacity:0.6;
+
+	filter: alpha(opacity=60);
+
+	-ms-filter: "alpha( opacity=60 )";
+
+	background: #fff;
+
+}
+
+
+
+#company_frame .recruit_frame .pro{ float:left; width:260px;}
+
+#company_frame .recruit_frame .pro li{ margin-top:15px;}
+
+#company_frame .recruit_frame .pro .title{ 
+
+	background:url(../company/recruit/img/mark.gif) left center no-repeat;
+
+	padding-left:15px;
+
+	font-weight:bold;
+
+}
+
+#company_frame .recruit_frame .pro .text{ line-height:140%; margin-top:5px;}
+
+
+
+/* バナー */
+
+#company_frame .recruit_frame .banner{
+
+	width:431px;
+
+	float:right;
+
+}
+
+

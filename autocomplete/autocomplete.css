@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.ui-autocomplete {
+     max-height: 200px;
+     overflow-y: auto;
+     overflow-x: hidden;
+     padding-right: 20px;
+}
+#jquery-ui-autocomplete label {
+     float: left;
+     margin-right: 0.5em;
+     color: black;
+     font-size: 15px;
+}
+.ui-autocomplete a  {
+	font-size: 9pt;  } 
+.ui-autocomplete a:hover{  color: #069;  }
